@@ -9,4 +9,5 @@ APMC Jamjodhpur Live Market Portal is a digital platform built to modernize agri
 The platform aims to simplify agricultural commerce by delivering accurate market information and a user-friendly experience across desktop, tablet, and mobile devices.
 
 
-![apmc jamjodhur]
+![apmc jamjodhur](/apmc.png.png)
+
