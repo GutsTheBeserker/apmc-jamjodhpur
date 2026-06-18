@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Yard Jamjodhpur | APMC Gujarat - Premium Agro Marketplace</title>
+    <meta name="description" content="Official portal of APMC Marketing Yard Jamjodhpur, Gujarat, India. Access daily live crop auction rates, trader registration guidelines, and modern farmer services.">
+    <!-- Premium Stylesheet link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- --- Announcement Ticker (Top Bar) --- -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="ticker-wrap">
+                <div class="ticker-title" data-i18n="rates_tag">LIVE UPDATE</div>
+                <div class="ticker-marquee">
+                    <div class="ticker-content" data-i18n="top_announcement">
+                        📌 Groundnut and Cotton auctions start daily at 8:00 AM. Digital Gate Pass mandatory for all farm vehicles.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- Frosted Glass Header --- -->
+    <header>
+        <div class="container">
+            <nav class="navbar" id="navbar">
+                <!-- Premium SVG Logo -->
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-name">APMC Jamjodhpur</span>
+                        <span class="logo-sub" data-i18n="nav_live_portal">🔴 Live Market Portal</span>
+                    </div>
+                </a>
+
+                <!-- Nav Menu -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#rates" class="nav-link" data-i18n="nav_rates">Market Rates</a></li>
+                    <li><a href="#categories" class="nav-link" data-i18n="nav_categories">Crops</a></li>
+                    <li><a href="#helpdesk" class="nav-link" data-i18n="nav_helpdesk">Farmer Helpdesk</a></li>
+                    <li><a href="#traders" class="nav-link" data-i18n="nav_traders">Trader Portal</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+
+                <!-- Header Action & Language Toggle -->
+                <div class="nav-actions">
+                    <button class="lang-btn" id="langToggleBtn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                        <span class="lang-lbl">ગુજરાતી</span>
+                    </button>
+                    <a href="#rates" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;" data-i18n="nav_action_rates">Rates View</a>
+                </div>
+
+                <!-- Hamburger mobile toggle -->
+                <div class="menu-toggle" id="menuToggleBtn">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- --- Stunning Hero Section --- -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="grid grid-2">
+                <!-- Left Content -->
+                <div class="hero-content reveal active">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span> <span data-i18n="hero_live_badge">🔴 Live APMC Price Feeds Active</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span data-i18n="hero_title_1">Gujarat's Leading</span> 
+                        <span data-i18n="hero_title_2">Agricultural Marketplace</span>
+                    </h1>
+                    <p class="hero-desc" data-i18n="hero_desc">
+                        Marketing Yard Jamjodhpur connects over 15,000 farmers with certified nationwide buyers via ultra-modern auction structures and fully automated e-NAM services.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#rates" class="btn btn-primary" data-i18n="hero_btn_rates">Today's Market Rates</a>
+                        <a href="#traders" class="btn btn-secondary" data-i18n="hero_btn_trader">Register as Trader</a>
+                    </div>
+                    <!-- Statistics Dashboard -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">15k+</span>
+                            <span class="stat-label" data-i18n="hero_stat_farmers">Active Farmers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">450+</span>
+                            <span class="stat-label" data-i18n="hero_stat_traders">Verified Traders</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">8,000+</span>
+                            <span class="stat-label" data-i18n="hero_stat_arrivals">Daily Arrivals (Tons)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual Stack -->
+                <div class="hero-visual reveal active">
+                    <div class="hero-circle-bg"></div>
+                    <div class="hero-card-stack">
+                        <!-- Glassmorphism Live Price Panel -->
+                        <div class="glass-hero-card">
+                            <div class="card-header">
+                                <span class="card-badge" data-i18n="rates_tag">LIVE TERMINAL</span>
+                                <div class="card-logo-mini">🥜</div>
+                            </div>
+                            <div class="price-row-mini">
+                                <span class="crop-name-mini">Groundnut (Magfali)</span>
+                                <span class="crop-val-mini">₹7,250 <span class="trend-up">▲</span></span>
+                            </div>
+                            <div class="price-row-mini">
+                                <span class="crop-name-mini">Cotton (Kapas)</span>
+                                <span class="crop-val-mini">₹8,200 <span class="trend-up">▲</span></span>
+                            </div>
+                            <div class="price-row-mini">
+                                <span class="crop-name-mini">Cumin (Jeera)</span>
+                                <span class="crop-val-mini">₹25,000 <span class="trend-down">▼</span></span>
+                            </div>
+                        </div>
+
+                        <!-- Float Tags -->
+                        <div class="floating-element-1">
+                            <div class="float-icon">📈</div>
+                            <div class="float-text">
+                                <h4 data-i18n="hero_float_1_title">Top Crop Arrivals</h4>
+                                <p data-i18n="hero_float_1_desc">Groundnut leading today</p>
+                            </div>
+                        </div>
+
+                        <div class="floating-element-2">
+                            <div class="float-icon">⚡</div>
+                            <div class="float-text">
+                                <h4 data-i18n="hero_float_2_title">Fast Auctions</h4>
+                                <p data-i18n="hero_float_2_desc">Avg. checkout &lt; 30 mins</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Crop Market Rates & Estimator Calculator Section --- -->
+    <section id="rates" class="reveal">
+        <div class="container">
+            <div class="align-center text-center">
+                <span class="section-tag" data-i18n="rates_tag">Live Terminal</span>
+                <h2 class="section-title" data-i18n="rates_title">Daily Auction Commodity Rates</h2>
+                <p class="section-desc" data-i18n="rates_desc">
+                    Real-time rates directly compiled from the APMC auction floors. Price metrics listed are in Indian Rupees (INR) per Quintal (100 kg).
+                </p>
+            </div>
+
+            <!-- Rates Interactive Panel -->
+            <div class="rates-container">
+                <div class="rates-controls">
+                    <!-- Tabs -->
+                    <div class="rates-tabs">
+                        <button class="tab-btn active" data-category="all" data-i18n="tab_all">All Crops</button>
+                        <button class="tab-btn" data-category="oilseeds" data-i18n="tab_oilseeds">Oilseeds</button>
+                        <button class="tab-btn" data-category="cereals" data-i18n="tab_cereals">Cereals</button>
+                        <button class="tab-btn" data-category="spices" data-i18n="tab_spices">Spices</button>
+                        <button class="tab-btn" data-category="pulses" data-i18n="tab_pulses">Pulses</button>
+                    </div>
+                    <!-- Search Input -->
+                    <div class="search-bar">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="cropSearchInput" placeholder="Search crops (e.g. Groundnut...)">
+                    </div>
+                    <!-- Quick Filters for Farmers -->
+                    <div class="quick-tags" id="quickTags">
+                        <span data-i18n="lbl_quick_filters" style="font-weight: 700; color: var(--text-primary); font-size: 0.85rem; margin-right: 4px;">Quick Filters:</span>
+                        <button class="tag-btn-click" data-query="Groundnut" data-query-gu="મગફળી">🥜 Groundnut / મગફળી</button>
+                        <button class="tag-btn-click" data-query="Cotton" data-query-gu="કપાસ">🌾 Cotton / કપાસ</button>
+                        <button class="tag-btn-click" data-query="Cumin" data-query-gu="જીરૂ">🌶️ Cumin / જીરૂ</button>
+                        <button class="tag-btn-click" data-query="Wheat" data-query-gu="ઘઉં">🌾 Wheat / ઘઉં</button>
+                    </div>
+                </div>
+
+                <!-- Rates Table -->
+                <div class="rates-table-wrapper">
+                    <table class="rates-table">
+                        <thead>
+                            <tr>
+                                <th data-i18n="table_crop">Crop Name</th>
+                                <th data-i18n="table_arrival">Arrival (Quintal)</th>
+                                <th data-i18n="table_min">Min. Price (₹/Q)</th>
+                                <th data-i18n="table_max">Max. Price (₹/Q)</th>
+                                <th data-i18n="table_modal">Modal Price (₹/Q)</th>
+                                <th data-i18n="table_trend">Market Trend</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ratesTableBody">
+                            <!-- Dynamic Javascript Insertion -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- --- Live Crop Valuation Calculator --- -->
+                <div class="calc-section">
+                    <div class="calc-grid">
+                        <div class="calc-info">
+                            <h3 data-i18n="calc_title">Farmer's Income Estimator</h3>
+                            <p data-i18n="calc_desc">
+                                Input your crop quantity to estimate your total market earnings based on today's APMC modal rates instantly. Empowering digital accounting.
+                            </p>
+                            <div style="font-size: 3.5rem; filter: grayscale(0.2);">🚜🌾</div>
+                        </div>
+
+                        <!-- Calculator Glass Form -->
+                        <div class="calc-card">
+                            <div class="form-group">
+                                <label for="calcCropSelect" data-i18n="lbl_select_crop">Select Your Crop</label>
+                                <div class="input-wrapper">
+                                    <select id="calcCropSelect">
+                                        <!-- Dynamic Javascript Insertion -->
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="calcUnitSelect" data-i18n="lbl_weight_unit">Weight Measurement Unit</label>
+                                <div class="input-wrapper">
+                                    <select id="calcUnitSelect">
+                                        <option value="quintal" data-i18n="unit_quintal">Quintal (100 kg)</option>
+                                        <option value="man" data-i18n="unit_man">Man (20 kg)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="calcQtyInput" data-i18n="lbl_quantity">Total Quantity</label>
+                                <div class="input-wrapper">
+                                    <input type="number" id="calcQtyInput" placeholder="0" min="0">
+                                </div>
+                                <div class="preset-buttons" id="presetQtyButtons">
+                                    <button type="button" class="preset-btn" data-qty="1">1</button>
+                                    <button type="button" class="preset-btn" data-qty="10">10</button>
+                                    <button type="button" class="preset-btn" data-qty="50">50</button>
+                                    <button type="button" class="preset-btn" data-qty="100">100</button>
+                                    <button type="button" class="preset-btn" data-qty="500">500</button>
+                                </div>
+                            </div>
+
+                            <div class="calc-result">
+                                <span class="calc-result-lbl" data-i18n="calc_result_lbl">Estimated Net Valuation</span>
+                                <h4 class="calc-result-val" id="calcResultVal">₹ 0.00</h4>
+                                <span class="calc-disclaimer" data-i18n="calc_disclaimer">
+                                    *Estimated before standard APMC handling charges & commissions. Final payouts are calculated at auction terminals.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Crop Categories Section --- -->
+    <section id="categories" class="reveal">
+        <div class="container">
+            <div class="align-center text-center">
+                <span class="section-tag" data-i18n="cat_tag">Our Produce</span>
+                <h2 class="section-title" data-i18n="cat_title">Major Crop Cultivations in Jamjodhpur</h2>
+                <p class="section-desc" data-i18n="cat_desc">
+                    Our fertile agricultural zone is highly renowned for supreme quality cash crops and premium spices distributed globally.
+                </p>
+            </div>
+
+            <!-- Categories Grid -->
+            <div class="grid grid-3">
+                <!-- Groundnut Card -->
+                <div class="category-card">
+                    <div class="category-icon">🥜</div>
+                    <h3 class="category-title" data-i18n="cat_oil_title">Premium Oilseeds</h3>
+                    <p class="category-desc" data-i18n="cat_oil_desc">
+                        Groundnut (Magfali) and Sesame (Til) cultivations represent the peak economic engine of the Jamjodhpur agrarian block.
+                    </p>
+                    <ul class="category-list">
+                        <li>Groundnut Bold</li>
+                        <li>Sesame White</li>
+                        <li>Sesame Black</li>
+                        <li>Mustard Seeds</li>
+                    </ul>
+                </div>
+
+                <!-- Cotton Card -->
+                <div class="category-card">
+                    <div class="category-icon">🌾</div>
+                    <h3 class="category-title" data-i18n="cat_fiber_title">High-grade Fibers</h3>
+                    <p class="category-desc" data-i18n="cat_fiber_desc">
+                        Gujarat's legendary long-staple Shankar cotton varieties, processed locally in modern ginning mills.
+                    </p>
+                    <ul class="category-list">
+                        <li>Shankar Cotton</li>
+                        <li>Eco Fibers</li>
+                        <li>Cotton Seeds</li>
+                    </ul>
+                </div>
+
+                <!-- Spices Card -->
+                <div class="category-card">
+                    <div class="category-icon">🌶️</div>
+                    <h3 class="category-title" data-i18n="cat_spice_title">Aromatic Spices</h3>
+                    <p class="category-desc" data-i18n="cat_spice_desc">
+                        World-famous bold Cumin (Jeera) and Coriander seeds cultivated under perfect semi-arid climatic balances.
+                    </p>
+                    <ul class="category-list">
+                        <li>Cumin Seeds (Jeera)</li>
+                        <li>Coriander (Dhaniya)</li>
+                        <li>Fennel (Variyali)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Farmer Services Section --- -->
+    <section id="helpdesk" class="services reveal">
+        <div class="container">
+            <div class="align-center text-center">
+                <span class="section-tag" data-i18n="farm_tag">Support & Facilities</span>
+                <h2 class="section-title" data-i18n="farm_title">APMC Farmer Services & Facilities</h2>
+                <p class="section-desc" data-i18n="farm_desc">
+                    Designed to provide seamless logistical coordination, soil diagnostics, financial transparency, and welfare.
+                </p>
+            </div>
+
+            <!-- Services Flex/Grid -->
+            <div class="grid grid-3">
+                <!-- Gatepass -->
+                <div class="service-box">
+                    <div class="service-header">
+                        <div class="service-icon-box">🎟️</div>
+                        <h3 data-i18n="srv_gatepass_title">Digital Gate Pass</h3>
+                    </div>
+                    <div class="service-body">
+                        <p data-i18n="srv_gatepass_desc">
+                            Generate your farm vehicle gate entry codes online. Minimizes arrival delays and queues at APMC entrance.
+                        </p>
+                        <a href="#contact" class="service-link"><span data-i18n="nav_contact">Access Entry Portal</span> →</a>
+                    </div>
+                </div>
+
+                <!-- Soil Testing -->
+                <div class="service-box">
+                    <div class="service-header">
+                        <div class="service-icon-box">🔬</div>
+                        <h3 data-i18n="srv_soil_title">Soil Testing Labs</h3>
+                    </div>
+                    <div class="service-body">
+                        <p data-i18n="srv_soil_desc">
+                            State-of-the-art soil chemical testing. Get instant micro-nutrient recommendation reports to boost crop health.
+                        </p>
+                        <a href="#contact" class="service-link"><span data-i18n="nav_contact">Book diagnostics</span> →</a>
+                    </div>
+                </div>
+
+                <!-- Cold storage -->
+                <div class="service-box">
+                    <div class="service-header">
+                        <div class="service-icon-box">❄️</div>
+                        <h3 data-i18n="srv_cold_title">Cold Storage Bookings</h3>
+                    </div>
+                    <div class="service-body">
+                        <p data-i18n="srv_cold_desc">
+                            Temperature-controlled storage facilities for delicate crops to prevent post-harvest spoilage and allow storage.
+                        </p>
+                        <a href="#contact" class="service-link"><span data-i18n="nav_contact">Check availability</span> →</a>
+                    </div>
+                </div>
+
+                <!-- Weather -->
+                <div class="service-box">
+                    <div class="service-header">
+                        <div class="service-icon-box">🌤️</div>
+                        <h3 data-i18n="srv_adv_title">Weather & Advisories</h3>
+                    </div>
+                    <div class="service-body">
+                        <p data-i18n="srv_adv_desc">
+                            Weekly bulletins compiled by local agronomy experts alongside direct meteorological department warnings.
+                        </p>
+                        <a href="#contact" class="service-link"><span data-i18n="nav_contact">Read Advisories</span> →</a>
+                    </div>
+                </div>
+
+                <!-- eNAM -->
+                <div class="service-box">
+                    <div class="service-header">
+                        <div class="service-icon-box">💳</div>
+                        <h3 data-i18n="srv_payment_title">Instant e-NAM Payouts</h3>
+                    </div>
+                    <div class="service-body">
+                        <p data-i18n="srv_payment_desc">
+                            100% transparent direct bank transfers integrated within the national agricultural market platform within 24 hours.
+                        </p>
+                        <a href="#contact" class="service-link"><span data-i18n="nav_contact">Check Payout Status</span> →</a>
+                    </div>
+                </div>
+
+                <!-- Subsidized Bhojanalaya -->
+                <div class="service-box">
+                    <div class="service-header">
+                        <div class="service-icon-box">🍽️</div>
+                        <h3 data-i18n="srv_canteen_title">Kisan Bhojanalaya</h3>
+                    </div>
+                    <div class="service-body">
+                        <p data-i18n="srv_canteen_desc">
+                            Highly subsidized, clean, and nutritious Gujarati meals for farmers staying overnight at the APMC yards.
+                        </p>
+                        <a href="#contact" class="service-link"><span data-i18n="nav_contact">View timings</span> →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Trader Portal & Registration Area --- -->
+    <section id="traders" class="trader-portal reveal">
+        <div class="container">
+            <div class="trader-grid">
+                <!-- Qualifications List Left -->
+                <div class="portal-info">
+                    <span class="section-tag" data-i18n="trader_tag">Commercial Gateway</span>
+                    <h2 class="section-title" data-i18n="trader_title">Trader Registrations & Operations</h2>
+                    <p class="portal-info-desc" data-i18n="trader_desc">
+                        Become a verified buyer at Jamjodhpur APMC. Gain secure electronic bidding access to supreme agricultural yield.
+                    </p>
+
+                    <ul class="req-list">
+                        <li class="req-item">
+                            <div class="req-icon">1</div>
+                            <div class="req-text">
+                                <h4 data-i18n="req_1_title">Valid GST & PAN credentials</h4>
+                                <p data-i18n="req_1_desc">Mandatory corporate tax filings and government identifier codes.</p>
+                            </div>
+                        </li>
+                        <li class="req-item">
+                            <div class="req-icon">2</div>
+                            <div class="req-text">
+                                <h4 data-i18n="req_2_title">E-NAM National Account registration</h4>
+                                <p data-i18n="req_2_desc">Unified license allowing inter-state online bidding permissions.</p>
+                            </div>
+                        </li>
+                        <li class="req-item">
+                            <div class="req-icon">3</div>
+                            <div class="req-text">
+                                <h4 data-i18n="req_3_title">Refundable Security Deposit</h4>
+                                <p data-i18n="req_3_desc">Ensures financial integrity and standard operational compliance on bids.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Registration Glass Form Right -->
+                <div class="trader-card">
+                    <h3 data-i18n="form_title">Trader Bidding Application</h3>
+                    <p data-i18n="form_desc">Submit your details below to initiate verified vendor registration.</p>
+
+                    <form id="traderRegForm">
+                        <div class="form-group">
+                            <label for="traderName" data-i18n="form_name">Applicant Full Name</label>
+                            <input type="text" id="traderName" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="traderFirm" data-i18n="form_firm">Firm/Company Name</label>
+                                <input type="text" id="traderFirm" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="traderPhone" data-i18n="form_phone">Contact Mobile Number</label>
+                                <input type="tel" id="traderPhone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="traderGst" data-i18n="form_gst">GSTIN or APMC License Code</label>
+                                <input type="text" id="traderGst" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="traderInterest" data-i18n="form_interest">Primary Crop Interests</label>
+                                <input type="text" id="traderInterest" placeholder="Groundnut, Cotton etc.">
+                            </div>
+                        </div>
+
+                        <label class="form-checkbox">
+                            <input type="checkbox" id="traderAgree" required>
+                            <span data-i18n="form_agree">I agree to comply with APMC Jamjodhpur auction guidelines and legal by-laws.</span>
+                        </label>
+
+                        <button type="submit" class="trader-submit-btn" data-i18n="form_btn">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal Popup -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="success-modal">
+            <div class="success-icon-box">✓</div>
+            <h3 data-i18n="modal_success_title">Registration Submitted!</h3>
+            <p data-i18n="modal_success_desc">
+                Thank you. Your trader application has been securely logged in our APMC database system. Our licensing committee will review your GSTIN credentials and email verification status within 24-48 business hours.
+            </p>
+            <button class="btn btn-primary" id="modalCloseBtn" data-i18n="modal_btn_close">Dismiss Window</button>
+        </div>
+    </div>
+
+    <!-- --- Auction Details & Timeline Section --- -->
+    <section class="auction reveal">
+        <div class="container">
+            <div class="align-center text-center">
+                <span class="section-tag" data-i18n="auction_tag">Live Schedules</span>
+                <h2 class="section-title" data-i18n="auction_title">APMC Daily Auction Schedules</h2>
+                <p class="section-desc" data-i18n="auction_desc">
+                    Organized shed allocations designed to optimize transaction flow, buyer distribution, and loading efficiency.
+                </p>
+            </div>
+
+            <div class="auction-grid">
+                <!-- Timeline Left -->
+                <div class="timeline">
+                    <div class="timeline-item active">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="shed-details">
+                                <h4 data-i18n="shed_1_title">Main Groundnut Yard (Shed A)</h4>
+                                <p data-i18n="shed_1_desc">Simultaneous open-outcry and electronic bidding.</p>
+                            </div>
+                            <span class="time-badge" data-i18n="time_8">08:00 AM - 11:30 AM</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item active">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="shed-details">
+                                <h4 data-i18n="shed_2_title">Cotton & Sesame Yard (Shed B & C)</h4>
+                                <p data-i18n="shed_2_desc">Bulk loading logistics, heavy vehicle access platforms.</p>
+                            </div>
+                            <span class="time-badge" data-i18n="time_12">12:00 PM - 03:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="shed-details">
+                                <h4 data-i18n="shed_3_title">Spices & Pulses Arena (Shed D)</h4>
+                                <p data-i18n="shed_3_desc">Grading checks and high-precision electronic weighing.</p>
+                            </div>
+                            <span class="time-badge" data-i18n="time_3">03:30 PM - 06:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Active Overview Card Right -->
+                <div class="active-shed-card">
+                    <h3 data-i18n="active_shed_title">Today's Auction Overview</h3>
+                    <p data-i18n="active_shed_desc">High transaction efficiency and real-time electronic ledger entries.</p>
+
+                    <div class="shed-stat">
+                        <span class="shed-stat-lbl" data-i18n="stat_shed_status">Operational Status</span>
+                        <span class="shed-stat-val" data-i18n="val_active">Fully Active</span>
+                    </div>
+                    <div class="shed-stat">
+                        <span class="shed-stat-lbl" data-i18n="stat_buyers">Registered Buyers Present</span>
+                        <span class="shed-stat-val">120+ Verified</span>
+                    </div>
+                    <div class="shed-stat">
+                        <span class="shed-stat-lbl" data-i18n="stat_volume">Projected Trading Volume</span>
+                        <span class="shed-stat-val" data-i18n="val_volume">₹2.4+ Crore Est.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- About Organization Section --- -->
+    <section id="about" class="about reveal">
+        <div class="container">
+            <div class="grid grid-2">
+                <!-- Content Left -->
+                <div class="about-content">
+                    <span class="section-tag" data-i18n="about_tag">Organizational Integrity</span>
+                    <h2 class="section-title" data-i18n="about_title">APMC Jamjodhpur: Legacy of Agrarian Growth</h2>
+                    <p class="section-desc" data-i18n="about_desc" style="margin-bottom: 24px;">
+                        Established as a pillar of regional trade, Marketing Yard Jamjodhpur has pioneered state-of-the-art infrastructure in the Saurashtra region. We bridge localized agricultural excellence with national distribution models, ensuring absolute financial fairness and prosperity for our farming communities.
+                    </p>
+
+                    <!-- Features bullets -->
+                    <div class="about-features">
+                        <div class="about-feat-item">
+                            <div class="about-feat-icon">🏆</div>
+                            <div class="about-feat-text">
+                                <h4 data-i18n="feat_1_title">ISO 9001 Certified</h4>
+                                <p data-i18n="feat_1_desc">Internationally standardized trade protocols.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-feat-item">
+                            <div class="about-feat-icon">💻</div>
+                            <div class="about-feat-text">
+                                <h4 data-i18n="feat_2_title">100% Digital Auditing</h4>
+                                <p data-i18n="feat_2_desc">Complete transparency with computerized ledger balance reports.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-feat-item">
+                            <div class="about-feat-icon">🏗️</div>
+                            <div class="about-feat-text">
+                                <h4 data-i18n="feat_3_title">High Capacity Infrastructure</h4>
+                                <p data-i18n="feat_3_desc">12 heavy-duty weighing terminals, 5 massive storage sheds.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-feat-item">
+                            <div class="about-feat-icon">👥</div>
+                            <div class="about-feat-text">
+                                <h4 data-i18n="feat_4_title">Committee Board</h4>
+                                <p data-i18n="feat_4_desc">Governed by agricultural economists and farmer representatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Overlapping Visual Right -->
+                <div class="about-visual">
+                    <div class="about-img-container">
+                        <!-- Premium modern styled CSS-gradient photographs -->
+                        <div class="about-img about-img-1" style="background: linear-gradient(rgba(10, 40, 20, 0.45), rgba(10, 40, 20, 0.65)), url('assets/apmc_jamjodhpur_yard.png') center/cover no-repeat; display:flex; justify-content:center; align-items:center;">
+                            <div style="text-align: center; color: white; padding: 20px;">
+                                <div style="font-size: 3rem;">🚜</div>
+                                <h4 style="margin-top: 10px; font-weight: 700;">Modern APMC</h4>
+                                <p style="font-size: 0.75rem; opacity: 0.8;">Jamjodhpur Warehouse</p>
+                            </div>
+                        </div>
+                        <div class="about-img about-img-2" style="background: linear-gradient(rgba(10, 40, 20, 0.45), rgba(10, 40, 20, 0.65)), url('assets/gujarat_farm_sunset.png') center/cover no-repeat; display:flex; justify-content:center; align-items:center;">
+                            <div style="text-align: center; color: white; padding: 20px;">
+                                <div style="font-size: 2.5rem;">🔬</div>
+                                <h4 style="margin-top: 10px; font-weight: 700;">Diagnostic Lab</h4>
+                                <p style="font-size: 0.75rem; opacity: 0.8;">Soil Testing Hub</p>
+                            </div>
+                        </div>
+                        <!-- gold badge -->
+                        <div class="about-experience-badge">
+                            <span>40+</span>
+                            <span data-i18n="about_exp_badge">Years of Trust</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Virtual Drone Tour Video Section -->
+            <div class="video-tour-container reveal">
+                <div class="video-overlay-play">
+                    <button class="video-play-btn" id="videoPlayBtn" type="button" aria-label="Play Drone Tour">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </button>
+                    <h4 data-i18n="video_tour_lbl">Watch APMC Facilities Drone Tour</h4>
+                </div>
+                <video id="apmcTourVideo" loop muted poster="assets/apmc_jamjodhpur_yard.png" playsinline>
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-tractor-plowing-a-field-at-sunset-12154-large.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Testimonials Carousel Section --- -->
+    <section class="testimonials reveal">
+        <div class="container">
+            <div class="align-center text-center">
+                <span class="section-tag" data-i18n="test_tag">Voices of Success</span>
+                <h2 class="section-title" data-i18n="test_title">Farmer & Trader Testimonials</h2>
+                <p class="section-desc" data-i18n="test_desc">
+                    Hear directly from the community members who power our daily trade achievements.
+                </p>
+            </div>
+
+            <!-- Testimonial Slider Structure -->
+            <div class="testimonial-slider-container">
+                <div class="testimonial-track">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="test-user-box">
+                                <div class="test-avatar" style="background: linear-gradient(135deg, var(--primary), var(--secondary)); display:flex; justify-content:center; align-items:center; font-size: 2.5rem;">🌾</div>
+                                <h4 data-i18n="test_1_user">Ramanbhai Patel</h4>
+                                <span data-i18n="test_1_role">Groundnut Farmer (Jamjodhpur)</span>
+                            </div>
+                            <div class="test-content-box">
+                                <span class="quote-icon">“</span>
+                                <div class="test-rating">⭐⭐⭐⭐⭐</div>
+                                <p class="test-text" data-i18n="test_1_text">
+                                    "I have been selling my groundnut crop at Jamjodhpur APMC for 8 years. The dynamic e-NAM bidding fetched me 20% higher rates than localized village brokers. Payout is credited directly to my bank in 12 hours!"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="test-user-box">
+                                <div class="test-avatar" style="background: linear-gradient(135deg, var(--neutral-dark), var(--primary)); display:flex; justify-content:center; align-items:center; font-size: 2.5rem;">👔</div>
+                                <h4 data-i18n="test_2_user">Amit Shah</h4>
+                                <span data-i18n="test_2_role">Director, Shah Agri Exports (Ahmedabad)</span>
+                            </div>
+                            <div class="test-content-box">
+                                <span class="quote-icon">“</span>
+                                <div class="test-rating">⭐⭐⭐⭐⭐</div>
+                                <p class="test-text" data-i18n="test_2_text">
+                                    "The infrastructure at Jamjodhpur Yard is world-class. Automated weighing guarantees accuracy, and the online gate-pass system eliminates truck bottlenecks during peak harvest seasons. Incredibly professional team!"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slider Indicators/Controls -->
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prevTestBtn">
+                        <svg viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
+                    </button>
+                    <button class="slider-btn" id="nextTestBtn">
+                        <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FAQ Accordion Section --- -->
+    <section class="faq reveal">
+        <div class="container">
+            <div class="align-center text-center">
+                <span class="section-tag" data-i18n="faq_tag">Knowledge Base</span>
+                <h2 class="section-title" data-i18n="faq_title">Frequently Asked Questions</h2>
+                <p class="section-desc" data-i18n="faq_desc">
+                    Quick answers to help you navigate APMC guidelines, schedules, bidding protocols, and support programs.
+                </p>
+            </div>
+
+            <!-- Accordion Wrapper -->
+            <div class="faq-container">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h4 data-i18n="faq_q1">What documents do farmers need to sell crops at APMC Jamjodhpur?</h4>
+                        <div class="faq-icon-box">
+                            <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-content" data-i18n="faq_a1">
+                            Farmers need to carry their Aadhaar card, 7/12 Land Registry documents (ખેતી પત્રક), bank passbook copy for instant e-transfer, and the Digital Gate Pass generated online or at the entrance kiosk.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h4 data-i18n="faq_q2">How does the e-NAM bidding system work?</h4>
+                        <div class="faq-icon-box">
+                            <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-content" data-i18n="faq_a2">
+                            Once the crop arrives, a sample is graded for quality parameters. The grading details are uploaded to the national e-NAM portal. Verified traders from all over India view these details and submit bids electronically. The farmer has the right to accept or reject the highest electronic bid.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h4 data-i18n="faq_q3">Are there storage facilities available for crops?</h4>
+                        <div class="faq-icon-box">
+                            <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-content" data-i18n="faq_a3">
+                            Yes, we have high-capacity warehouses and cold storage units. Farmers can secure their crops at extremely nominal subsidized rates to avoid distressed sales during price drops, allowing them to sell when rates improve.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h4 data-i18n="faq_q4">How can inter-state traders participate in auctions?</h4>
+                        <div class="faq-icon-box">
+                            <svg viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+                        </div>
+                    </div>
+                    <div class="faq-body">
+                        <div class="faq-content" data-i18n="faq_a4">
+                            Inter-state traders must register on the unified e-NAM portal, possess a valid GST registration, and submit a security deposit to get trading clearances for Jamjodhpur APMC auctions.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Contact Form & Google Maps Section --- -->
+    <section id="contact" class="contact reveal">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Left Info & Map -->
+                <div class="contact-details">
+                    <div>
+                        <span class="section-tag" data-i18n="contact_tag">Get In Touch</span>
+                        <h2 class="section-title" data-i18n="contact_title">Connect with APMC Helpdesk</h2>
+                        <p class="section-desc" data-i18n="contact_desc" style="margin-bottom: 0;">
+                            Reach out to our dedicated administrative board, soil test bookings, or auction managers directly.
+                        </p>
+                    </div>
+
+                    <!-- Contact Details Cards -->
+                    <div class="contact-info-card">
+                        <div class="contact-icon-wrapper">📍</div>
+                        <div class="contact-info-text">
+                            <h4 data-i18n="lbl_office">Administrative Office Address</h4>
+                            <p data-i18n="val_address">Station Road, Jamjodhpur, District Jamnagar, Gujarat - 360530, India.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon-wrapper">📞</div>
+                        <div class="contact-info-text">
+                            <h4 data-i18n="lbl_helpline">Farmer Support Hotline</h4>
+                            <p data-i18n="val_hotline">+91 2898 220045 / +91 94282 22045</p>
+                        </div>
+                    </div>
+
+                    <!-- Modern Google Map container -->
+                    <div class="map-card">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14782.261278142751!2d70.0253457!3d22.0664917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3957591745778b01%3A0xe54e60a7751c911a!2sJamjodhpur%2C%20Gujarat%20360530!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Right Contact Form -->
+                <div class="contact-card">
+                    <h3 data-i18n="c_form_title">Send Official Inquiry</h3>
+                    <p data-i18n="c_form_desc">Fill in the details and our administrative officers will respond within 24 hours.</p>
+
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName" data-i18n="lbl_c_name">Your Full Name</label>
+                            <input type="text" id="contactName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail" data-i18n="lbl_c_email">Email Address / Mobile</label>
+                            <input type="text" id="contactEmail" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactSubject" data-i18n="lbl_c_sub">Subject of Inquiry</label>
+                            <input type="text" id="contactSubject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage" data-i18n="lbl_c_msg">Message Details</label>
+                            <textarea id="contactMessage" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;" data-i18n="btn_send_inq">Send Secure Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Premium Footer --- -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1 Brand -->
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2-2 0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">APMC Jamjodhpur</span>
+                            <span class="logo-sub" data-i18n="hero_live_badge">🔴 Live Market Portal</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc" data-i18n="footer_desc_txt">
+                        Empowering Gujarat's agricultural framework through modern facilities, absolute trading transparency, and sustainable development paradigms.
+                    </p>
+                    <!-- Social icons -->
+                    <div class="footer-socials">
+                        <a href="#" class="social-link">𝕏</a>
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">in</a>
+                        <a href="#" class="social-link">▶</a>
+                    </div>
+                </div>
+
+                <!-- Column 2 Links -->
+                <div>
+                    <h4 class="footer-title" data-i18n="foot_links_title">Quick Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home Base</a></li>
+                        <li><a href="#rates" data-i18n="nav_rates">Market Rates</a></li>
+                        <li><a href="#categories" data-i18n="nav_categories">Crops Info</a></li>
+                        <li><a href="#about" data-i18n="nav_about">About Legacy</a></li>
+                        <li><a href="#contact" data-i18n="nav_contact">Contact Helpdesk</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 Services -->
+                <div>
+                    <h4 class="footer-title" data-i18n="foot_servs_title">Farmer Portals</h4>
+                    <ul class="footer-links">
+                        <li><a href="#helpdesk">Digital Gate Entry</a></li>
+                        <li><a href="#helpdesk">Soil Testing Schedule</a></li>
+                        <li><a href="#helpdesk">Cold Storage Status</a></li>
+                        <li><a href="#traders">Trader Register Guidelines</a></li>
+                        <li><a href="https://enam.gov.in" target="_blank">National e-NAM Portal</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 Newsletter -->
+                <div class="footer-newsletter">
+                    <h4 class="footer-title" data-i18n="foot_news_title">Newsletter</h4>
+                    <p data-i18n="foot_news_desc">Subscribe to daily modal price notifications sent directly to your email inbox.</p>
+                    <form class="newsletter-form" id="newsLetterForm">
+                        <input type="email" class="newsletter-input" placeholder="Enter Email Address" required>
+                        <button type="submit" class="newsletter-btn">➔</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <span data-i18n="foot_rights">© 2026 Marketing Yard APMC Jamjodhpur. All commercial rights reserved.</span>
+                <div class="footer-legal-links">
+                    <a href="#" data-i18n="foot_legal_1">Privacy Policy</a>
+                    <a href="#" data-i18n="foot_legal_2">Terms of Use</a>
+                    <a href="#" data-i18n="foot_legal_3">e-NAM Guidelines</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- --- Floating Action Widgets --- -->
+    <!-- Sticky WhatsApp Button -->
+    <a href="https://wa.me/919428222045?text=I%20need%20assistance%20regarding%20Jamjodhpur%20APMC%20Market%20Rates" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        💬
+    </a>
+
+    <!-- Smooth Back To Top Button -->
+    <div class="back-to-top">
+        <svg viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6"/></svg>
+    </div>
+
+    <!-- Script file link -->
+    <script src="script.js"></script>
+</body>
+</html>
